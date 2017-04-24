@@ -10,7 +10,7 @@ namespace console\controllers;
 use yii\base\Controller;
 
 class HelloController extends Controller{
-    public function actionIndex(){
-        echo 'hello word!';
+    public function actionIndex($name){
+        echo 'hello word!'.$name;
     }
 }
