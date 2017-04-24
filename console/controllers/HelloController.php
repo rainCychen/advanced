@@ -7,9 +7,9 @@
  */
 namespace console\controllers;
 
-use yii\base\Controller;
+use yii\console\Controller;
 
-class HelloController extends \yii\console\Controller{
+class HelloController extends Controller{
     public function actionIndex($name){
         echo 'hello word!'.$name;
     }
